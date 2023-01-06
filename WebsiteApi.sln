@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{10283631-0EA3-4722-85F7-4628F6822BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Api", "src\Website.Api\Website.Api.csproj", "{145AFDAB-7018-4359-B830-E3D6BCA46A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Common", "src\Website.Common\Website.Common.csproj", "{033F6D94-CFD0-4E80-B8A2-E9B66F48900D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Application", "src\Website.Application\Website.Application.csproj", "{0FC7ED3A-A382-428B-AD14-28C20D3627A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Domain", "src\Website.Domain\Website.Domain.csproj", "{45B04E75-DBF6-4EAE-B2DE-CFC66D600BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Infrastructure", "src\Website.Infrastructure\Website.Infrastructure.csproj", "{7DDABD18-B9E8-407D-88A7-A0BD82F1E334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Services", "src\Website.Services\Website.Services.csproj", "{0C6C431D-BBF3-4AFC-AE06-B2056D4967F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{145AFDAB-7018-4359-B830-E3D6BCA46A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145AFDAB-7018-4359-B830-E3D6BCA46A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145AFDAB-7018-4359-B830-E3D6BCA46A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145AFDAB-7018-4359-B830-E3D6BCA46A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033F6D94-CFD0-4E80-B8A2-E9B66F48900D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033F6D94-CFD0-4E80-B8A2-E9B66F48900D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033F6D94-CFD0-4E80-B8A2-E9B66F48900D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033F6D94-CFD0-4E80-B8A2-E9B66F48900D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC7ED3A-A382-428B-AD14-28C20D3627A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC7ED3A-A382-428B-AD14-28C20D3627A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC7ED3A-A382-428B-AD14-28C20D3627A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC7ED3A-A382-428B-AD14-28C20D3627A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B04E75-DBF6-4EAE-B2DE-CFC66D600BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B04E75-DBF6-4EAE-B2DE-CFC66D600BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B04E75-DBF6-4EAE-B2DE-CFC66D600BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B04E75-DBF6-4EAE-B2DE-CFC66D600BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDABD18-B9E8-407D-88A7-A0BD82F1E334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDABD18-B9E8-407D-88A7-A0BD82F1E334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDABD18-B9E8-407D-88A7-A0BD82F1E334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDABD18-B9E8-407D-88A7-A0BD82F1E334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6C431D-BBF3-4AFC-AE06-B2056D4967F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6C431D-BBF3-4AFC-AE06-B2056D4967F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6C431D-BBF3-4AFC-AE06-B2056D4967F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6C431D-BBF3-4AFC-AE06-B2056D4967F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{145AFDAB-7018-4359-B830-E3D6BCA46A37} = {10283631-0EA3-4722-85F7-4628F6822BE7}
+		{033F6D94-CFD0-4E80-B8A2-E9B66F48900D} = {10283631-0EA3-4722-85F7-4628F6822BE7}
+		{0FC7ED3A-A382-428B-AD14-28C20D3627A8} = {10283631-0EA3-4722-85F7-4628F6822BE7}
+		{45B04E75-DBF6-4EAE-B2DE-CFC66D600BDF} = {10283631-0EA3-4722-85F7-4628F6822BE7}
+		{7DDABD18-B9E8-407D-88A7-A0BD82F1E334} = {10283631-0EA3-4722-85F7-4628F6822BE7}
+		{0C6C431D-BBF3-4AFC-AE06-B2056D4967F7} = {10283631-0EA3-4722-85F7-4628F6822BE7}
+	EndGlobalSection
+EndGlobal

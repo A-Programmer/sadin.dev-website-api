@@ -4,7 +4,7 @@ using Website.Services.AuthServices;
 
 namespace Website.Api.Controllers;
 
-// [Authorize]
+[Authorize]
 public class SecureBaseController : BaseController
 {
     private readonly IAuthService AuthServices;

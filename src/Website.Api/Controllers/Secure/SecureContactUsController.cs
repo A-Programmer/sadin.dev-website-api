@@ -30,7 +30,7 @@ public class SecureContactUsController : SecureBaseController
     }
     
     // [Authorize(Policy = "ClientIdPolicy")] // This policy has been set in the Extension.cs of Website.Common project, based on this policy
-    // Client_Id of the request should be websiteadmin 
+    // Client_Id of the request should be websiteadmin
     // [Authorize]
     [HttpGet(Routes.ContactUs.Get.GetAll)]
     [ProducesResponseType(typeof(ResultMessage<ContactUsListItemViewModel>), 200)]

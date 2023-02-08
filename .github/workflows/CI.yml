@@ -1,0 +1,39 @@
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - uses: actions/checkout@v3
+#     - name: Setup .NET
+#       uses: actions/setup-dotnet@v3
+#       with:
+#         dotnet-version: 6.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Build
+      run: dotnet build --no-restore
+    
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
+
+    - name: Publish 
+      run: |
+        dotnet publish -c Release -o build
+    
+    - name: Update Connection String
+      uses: benday-inc/set-property-value-in-appsettings@main
+      with:
+        pathToSettingsFile: '${{ github.workspace }}\build\appsettings.json'
+        keyname1: 'ConnectionStrings'
+        keyname2: 'SqlServerConnection'
+        valueToSet: '${{ secrets.CONNECTIONSTRING }}'
